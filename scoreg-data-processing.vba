@@ -1,7 +1,7 @@
 Sub Remove_email_duplicates()
 '
     Dim wb As Workbook
-    Set wb = ActiveWorkbook
+    Set wb = ActiveWorkbook 
     
     wb.Worksheets("Paste data here").Activate
     
